@@ -1,0 +1,101 @@
+REACT:
+
+FrameWork:   Itself is an application predefined set of rules to run that application no flexibility
+
+library:  You can control the applications set, function, class we call whenever we require (bootstrap,toas,routing, statemagement) entire application will within the control of us.
+
+In react in library ex: react,jquery.
+
+It is popular Js library.
+
+1. Due to its componenet base architecture
+                       1. only one to develop.
+                       2. Code reusuability of the code.
+
+2. Unidirectional flow(parent to child)
+              1. Props
+              2. Children
+
+3. Virtual DOM
+             1. Copy of original DOM
+             2. Which makes application faster.
+                -->:def[increase in the performance]
+    
+    It is used for developing single page application.
+
+    Single page application:
+             Which consists of single HTML page to render the control.
+
+    
+                     initial Request
+                    ---------------->
+                          HTML  
+    client          ---------------->           server
+                          AJAX
+                    ---------------->
+                          JSON
+                    ---------------->
+
+    Multipage Lifecycle:
+            
+
+                     initial Request
+                    ---------------->
+                          HTML
+    client          ---------------->           server
+                        Form Post
+                    ---------------->
+                          HTML
+                    ---------------->
+
+
+React develop by facebook 2013 amd 2015 published as open source.
+     It is popular js library which used developing single page appli ation.
+     1. Componenet based architecture (reuseability of the code).
+     2. Virtual DOM (copy of original DOM) ==>: def(increase in the performance)
+     3. JSX (write the HTML line code in JS).
+     4. Unidirectional flow(parent to child)(props and children).
+     5. Eae to learn and rich ecosystem (more of tools used flexibily).
+     6. Ease state management(redux, contextapi)
+     7. Cross-platform application (React_native)
+
+4. Ease to leat and rich Ecosystem.
+             More no of tools used felxibility.
+
+5. Ease state management.
+            -> redux
+            -> context API 
+
+6. JSX   
+          -> Javascript
+          -> Write the HTML like code in JS.
+
+
+Integrating react to HTML projects.
+        -> CDN 
+        -> Through installation with npm.
+
+
+Development server: Modifying the existing code work with error make changes.
+
+Production Server:  Minimal error, logins, logos, privacy content not exposed etc,..
+
+Cross origin: To open the windows server written the JSON format.
+
+
+npm: package manager for Javascript like installing, updating and deleting ( bootstrap, react).
+
+npx: node package executer.
+
+npm install <package name> -g   (-g --> global)
+npm install <package name> -D   (-D --> Dev-depending)
+npm install <package name> --save -dev
+
+npm uninstall (package-JSON-file):
+                which consists the meta data about the projects
+                name, author informatins, version, consfiguration etc,..
+
+npm init (giving information manually by user)
+npm init -y (creates the entire information by itself)
+
+                   
